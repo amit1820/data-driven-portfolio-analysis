@@ -1,31 +1,3 @@
-"""
-Portfolio Risk, Return, and the Limits of Diversification
-=========================================================
-
-A self-contained analysis demonstrating how I approach a markets question with
-Python: build a small multi-asset portfolio, measure risk and return properly,
-and test how much diversification actually helps — including where it stops
-helping.
-
-Author: Amit Kumar
-Tools: pandas, numpy, matplotlib, yfinance
-
-What this shows:
-- Pulling and cleaning real market data
-- Computing annualized return, volatility, Sharpe ratio
-- Building a correlation matrix and reasoning about diversification
-- Simulating the efficient frontier (Monte Carlo) and identifying the
-  max-Sharpe and min-variance portfolios
-- Interpreting results with appropriate caution, not overclaiming
-
-Run:
-    pip install yfinance pandas numpy matplotlib
-    python portfolio_analysis.py
-
-Note: yfinance pulls live data, so exact numbers will vary by run date.
-The reasoning and method are the point, not any single number.
-"""
-
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
